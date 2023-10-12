@@ -2,7 +2,7 @@
 
 A leveraged market making solution to minimize IL and improve on liquidity management. The solution provides yield for retail LPs, higher profits for expert LPs, and better liquidity for traders.
 
-[](https://audits.sherlock.xyz/contests/89)
+[Link to contest page](https://audits.sherlock.xyz/contests/89)
 
 # Issues i was able to find
 
