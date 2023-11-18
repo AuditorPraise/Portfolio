@@ -92,7 +92,8 @@ build the exchangeRate to sync with realTime market conditions (i.e the realTime
 ## Summary
 the transactions can potentially remain pending indefinitely, if there are network issues or other problems.
 
-Vulnerability Detail
+## Vulnerability Detail
+
 These functions should have a deadline and deadline checker implemented to ensure that the transaction is completed within a reasonable amount of time since it transfers funds from one chain to another like the xTransfer()
 the transaction can potentially remain pending indefinitely, if there are network issues or other problems.
 
