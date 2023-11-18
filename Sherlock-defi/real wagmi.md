@@ -26,6 +26,7 @@ wrong borrowing Key is used (i.e the old borrowing key) when adding old loans to
 
 Therefore the wrong borrowing key (i.e the old borrowing key) will be added as borrowing key for tokenId of old Loans in tokenIdToBorrowingKeys in _addKeysAndLoansInfo()
 
+Loans will never be repayable hence this will cause bad debt for the protocol
 
 ## Code Snippet
 https://github.com/sherlock-audit/2023-10-real-wagmi/blob/main/wagmi-leverage/contracts/LiquidityBorrowingManager.sol#L440-L441
