@@ -10,7 +10,7 @@ Footium is a multiplayer football management game where players own and manage t
 |--------|------|-----|
 | Medium| Loss of funds due to Unchecked return value of .transfer().| [Link](https://github.com/sherlock-audit/2023-04-footium-judging/issues/9)|
 
-# 1. Loss of funds due to Unchecked return value of .transfer()
+# Issue: Loss of funds due to Unchecked return value of .transfer()
 
 ## Summary
 not checking the return value of transfer() method can lead to loss of funds/ stuck funds
