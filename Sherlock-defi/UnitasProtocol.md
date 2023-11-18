@@ -10,7 +10,7 @@ It's all about Unitized stablecoins serving as units of account representing eme
 
 
 
-# 1.  XOracle.getLatestPrice() can return stale price within _getSwapResult() function
+# Issue:  XOracle.getLatestPrice() can return stale price within _getSwapResult() function
 
 # Summary
 
