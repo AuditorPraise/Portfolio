@@ -9,7 +9,7 @@ Hubble Exchange is the first Multi-collateral / Cross-Margin Perpetual Futures p
 |--------|------|-----|
 | Medium| Oracle.sol may return stale price| [Link](https://github.com/sherlock-audit/2023-04-hubble-exchange-judging/issues/19)|
 
-# 1.  Oracle.sol may return stale price
+# Issue:  Oracle.sol may return stale price
 
 ## Summary
 Oracle should use the updatedAt value from the latestRoundData() function to make sure that the latest answer is recent enough to be used.
